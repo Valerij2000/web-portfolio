@@ -32,6 +32,7 @@ Version:1.1 */
 /* CSS Reset & Clear
 /*----------------------------------------------------------------------------------- */
  
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
 
 html{
     overflow-x: hidden !important;
@@ -229,11 +230,20 @@ section{
     margin-left: 0px!important;
 }
 .navbar-brand{
-    font-size:40px;
+    padding: 10px;
+    font-size: 70px;
     color: #222;
+    font-family: 'Ephesis', cursive;
 }
+
+@media (min-width: 768px) {
+    .navbar-brand{
+        padding: 16px;
+    }
+}
+
 .navbar-brand img{
-  height: 180%;
+    height: 180%;
     width: auto;
     vertical-align: middle;
     max-width: 100%;
@@ -2559,7 +2569,7 @@ iframe{
     color: #fff!important;
 }
 #about-details {
-    background: url('../images/banner/banner.jpg')fixed 50% 50%;
+    background: url('../images/banner/myfoto.jpg')fixed 50% 50%;
 }
 
 .single-progress .progress{
