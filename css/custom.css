@@ -2569,7 +2569,7 @@ iframe{
     color: #fff!important;
 }
 #about-details {
-    background: url('../images/banner/myfoto.jpg')fixed 50% 50%;
+    background: url("../images/banner/myfoto.jpg") 50% 50% no-repeat;
 }
 
 .single-progress .progress{
