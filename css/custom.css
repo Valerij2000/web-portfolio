@@ -626,8 +626,8 @@ padding: 10px 15px;
 .single-portfolio img{
    display: block;
    width: 100%;
-   height: auto!important;
-
+   height: 221px;
+   object-fit: cover;
 }
 
 .single-portfolio:hover figcaption{
@@ -669,9 +669,7 @@ padding: 10px 15px;
     padding-top: 50px;
     text-align: left;
 }
-.single-portfolio figcaption h5,.single-portfolio figcaption p{
-    margin: 10px 0px;
-}
+
 .single-portfolio figcaption h5{
     float: left;
 }
@@ -2569,7 +2567,8 @@ iframe{
     color: #fff!important;
 }
 #about-details {
-    background: url("../images/banner/myfoto.jpg") 50% 50% no-repeat;
+    /*background: url("../images/banner/myfoto.jpg") 50% 50% no-repeat;*/
+    background: rgb(175 65 179 / 83%);
 }
 
 .single-progress .progress{
