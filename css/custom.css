@@ -170,6 +170,14 @@ a{
 .feature-tab,.team-items,.pricing,.single_blog ,#testimonial .owl-carousel .owl-wrapper,.contact_full{
     margin-top: 40px;
 }
+@media (max-width: 768px) {
+    .feature-tab,.team-items,.pricing,.single_blog ,#testimonial .owl-carousel .owl-wrapper,.contact_full{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 #portfolio{
     padding-bottom: 0px;
 }
@@ -1096,7 +1104,13 @@ padding: 8px 15px;
 }
 .overlay-hover img{
     width: 100%!important;
-    height: 240px!important;
+    height: auto;
+    object-fit: none;
+}
+@media (max-width: 850px) {
+    .overlay-hover img{
+        object-fit: cover;
+    }
 }
 .overlay-effect ul.social{
     bottom:5%;
@@ -1209,7 +1223,7 @@ padding: 8px 15px;
     top: 0px;
 }
 #pricing_table {
-    background: url("../images/bg/1.jpg")fixed center center;
+    background: url("../images/bg/laid-phone.png")fixed center center;
     background-size: cover;
 }
 
@@ -2567,8 +2581,8 @@ iframe{
     color: #fff!important;
 }
 #about-details {
-    /*background: url("../images/banner/myfoto.jpg") 50% 50% no-repeat;*/
-    background: rgb(175 65 179 / 83%);
+    background: url("../images/banner/paralax.jpg");
+    /*background: rgb(175 65 179 / 83%);*/
 }
 
 .single-progress .progress{
