@@ -1578,7 +1578,7 @@ figcaption .links a {
 }
 
 #testimonial .owl-carousel .owl-wrapper {
-    /*width: 100%!important;*/;
+  
 }
 
 .testimonial-slide .testimonial-thumb img {
@@ -2418,11 +2418,9 @@ textarea:hover {
 }
 
 .blog-tab .nav-tabs {
-    /*margin-bottom: -10px;*/;
 }
 
 .blog-tab .nav-tabs li {
-    /*margin-right: 5px;*/;
 }
 
 .blog-tab .nav-tabs li.active a {
@@ -2580,14 +2578,11 @@ textarea:hover {
 
 @media only screen and (max-width: 767px) {
     .single-portfolio {
-      /*width:50%;*/
-        /*overflow:hidden;*/;
     }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .single-portfolio {
-        /*width: 100%;*/;
     }
 }
 

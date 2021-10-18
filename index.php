@@ -906,15 +906,15 @@
 
 
 <!-- Back To Top Button -->
-       <!--  <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
-                <button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-double-up"></i></button>
-            </div> -->
-    <div id="back-top">
-        <a href="#slider_part" class="scroll" data-scroll>
-            <button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-up"></i></button>
-        </a>
-    </div>
-    <!-- End Back To Top Button -->
+<!-- <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
+    <button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-double-up"></i></button>
+</div>  -->
+<div id="back-top">
+    <a href="#slider_part" class="scroll" data-scroll>
+        <button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-up"></i></button>
+    </a>
+</div>
+<!-- End Back To Top Button -->
 
 
 
