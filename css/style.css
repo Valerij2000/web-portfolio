@@ -823,7 +823,7 @@ figcaption .links a {
 
 #portfolio-slider li img {
     width: 100%!important;
-    height: 350px!important;
+    height: auto!important;
 }
 
 .sidebar {

@@ -45,33 +45,9 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-    <header id="header" class="navbar-fixed-top navbar-inverse video-menu" role="banner">
-    	<div class="container">
-    		<!-- <div class="row"> -->
-                 <div class="navbar-header ">
-                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html">
-                            vs
-                        </a>
-                 </div><!--Navbar header End-->
-                 	<nav class="collapse navbar-collapse navigation" id="bs-example-navbar-collapse-1" role="navigation">
-                        <ul class="nav navbar-nav navbar-right ">
-                           	<li class="active"> <a href="#home" >Home </a></li>
-                            <li><a href="#service"  >Services</a> </li>
-                            <li><a href="#portfolio"  >Portfolio</a> </li>
-                            <li><a href="#about" >About Us </a> </li>
-                            <li><a href="#team" >Our Team </a> </li>
-                            <li><a href="#contact" >Contact Us</a> </li>
-                        </ul>
-                     </nav>
-                </div><!-- /.container-fluid -->
-</header>
+<!-- header -->
+<?php require 'header-main.php' ?>
+<!-- header end -->
  <!-- Slider start -->
     <section id="home" class="hero landing hero-section">
         <div class="video-background-container">
@@ -119,14 +95,17 @@
                 <div class="row">
                     <div class="main_feature text-center">
                         <div class="col-md-3 col-xs-12 col-sm-6">
+                            <a href="#about">
                                 <div class="feature_content">
                                     <i class="fa fa-lightbulb-o"></i>
                                     <h5>SEO & OPTIMIZATION</h5>
                                     <p>SEO website promotion in search engines and optimization</p>
                                     <button class="btn btn-main"> Read More</button>
                                 </div>
+                            </a>
                             </div>
                         <div class="col-md-3 col-xs-12 col-sm-6">
+                            <a href="#portfolio">
                                 <div class="feature_content">
                                     <i class="fa fa-pencil"></i>
                                     <h5>INFINITY EDIT</h5>
@@ -134,8 +113,10 @@
                                         Turnkey website development</p>
                                     <button class="btn btn-main"> Read More</button>
                                 </div>
+                            </a>
                         </div> <!-- Col-md-4 Single_feature End -->
                         <div class="col-md-3 col-xs-12 col-sm-6">
+                            <a href="#contact">
                                 <div class="feature_content">
                                     <i class="fa fa-cog"></i>
                                     <h5>Full time Support</h5>
@@ -143,8 +124,10 @@
                                         Website development speed </p>
                                     <button class="btn btn-main"> Read More</button>
                                 </div>
+                            </a>
                         </div> <!-- Col-md-4 Single_feature End -->
                         <div class="col-md-3 col-xs-12 col-sm-6">
+                            <a href="#about">
                                 <div class="feature_content">
                                     <i class="fa fa-desktop"></i>
                                     <h5>Ultra Responsive</h5>
@@ -152,6 +135,7 @@
                                         Full adaptability for all devices</p>
                                     <button class="btn btn-main"> Read More</button>
                                 </div>
+                            </a>
                         </div> <!-- Col-md-4 Single_feature End -->
                         <!-- <button class="btn btn-main"> Read More</button> -->
                     </div>
@@ -302,7 +286,7 @@
                             <figcaption>
                                 <h5>Avtoraketa</h5>
                                 <p class="links">
-                                    <a href="avtoraketa.html"> <i class="fa fa-link"></i></a>
+                                    <a href="avtoraketa.php"> <i class="fa fa-link"></i></a>
                                     <a href="images/portfolio/avtoraketa.jpg" data-rel="prettyPhoto" >
                                         <i class="fa fa-plus"></i>
                                     </a>
@@ -320,7 +304,7 @@
                             <figcaption>
                                 <h5>Infinity Fashion</h5>
                                 <p class="links">
-                                    <a href="infinityFashion.html"> <i class="fa fa-link"></i></a>
+                                    <a href="infinityFashion.php"> <i class="fa fa-link"></i></a>
                                     <a href="images/portfolio/infinityfashion.jpg"  data-rel="prettyPhoto">
                                         <i class="fa fa-plus"></i>
                                     </a>
@@ -338,7 +322,7 @@
                             <figcaption>
                                 <h5>Kovryshop</h5>
                                 <p class="links">
-                                    <a href="kovryshop.html"> <i class="fa fa-link"></i></a>
+                                    <a href="kovryshop.php"> <i class="fa fa-link"></i></a>
                                     <a href="images/portfolio/kovryshop.jpg" data-rel="prettyPhoto">
                                         <i class="fa fa-plus"></i>
                                     </a>
@@ -356,7 +340,7 @@
                             <figcaption>
                                 <h5>Jobny</h5>
                                 <p class="links">
-                                    <a href="jobny.html"> <i class="fa fa-link"></i></a>
+                                    <a href="jobny.php"> <i class="fa fa-link"></i></a>
                                     <a href="images/portfolio/jobny.jpg" data-rel="prettyPhoto">
                                         <i class="fa fa-plus"></i>
                                     </a>
@@ -374,7 +358,7 @@
                             <figcaption>
                                 <h5>Cardio Active</h5>
                                 <p class="links">
-                                    <a href="cardio-active.html"> <i class="fa fa-link"></i></a>
+                                    <a href="cardio-active.php"> <i class="fa fa-link"></i></a>
                                     <a href="images/portfolio/cardioActive.jpg" data-rel="prettyPhoto">
                                         <i class="fa fa-plus"></i>
                                     </a>
@@ -392,7 +376,7 @@
                             <figcaption>
                                 <h5>Lumos Company</h5>
                                 <p class="links">
-                                    <a href="lumos.html"> <i class="fa fa-link"></i></a>
+                                    <a href="lumos.php"> <i class="fa fa-link"></i></a>
                                     <a href="images/portfolio/lumos.jpg" data-rel="prettyPhoto">
                                         <i class="fa fa-plus"></i>
                                     </a>
@@ -410,7 +394,7 @@
                             <figcaption>
                                 <h5>Rabota.today</h5>
                                 <p class="links">
-                                    <a href="rabota-today.html"> <i class="fa fa-link"></i></a>
+                                    <a href="rabota-today.php"> <i class="fa fa-link"></i></a>
                                     <a href="images/portfolio/rabota.jpg" data-rel="prettyPhoto">
                                         <i class="fa fa-plus"></i>
                                     </a>
@@ -428,7 +412,7 @@
                             <figcaption>
                                 <h5>Rost Job</h5>
                                 <p class="links">
-                                    <a href="rostjob.html"> <i class="fa fa-link"></i></a>
+                                    <a href="rostjob.php"> <i class="fa fa-link"></i></a>
                                     <a href="images/portfolio/rostjob.jpg" data-rel="prettyPhoto">
                                         <i class="fa fa-plus"></i>
                                     </a>
@@ -916,92 +900,7 @@
 	</div>
 </div>
 <!-- Footer Area Start -->
-
-<section id="footer">
-    <div class="footer_top">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <h3 class="menu_head">Main Menu</h3>
-                    <div class="footer_menu">
-                        <ul>
-                            <li><a href="#about">Home</a></li>
-                            <li><a href="#service">Service</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <h3 class="menu_head">Useful Links</h3>
-                    <div class="footer_menu">
-                        <ul>
-                            <li><a>Terms of use</a></li>
-                            <li><a>Privacy Policy</a></li>
-                            <li><a> inventore natus ullam eum</a></li>
-                            <li><a>consectetur adipisicing elit.</a></li>
-                            <li><a>Frequently Asked Questions</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <h3 class="menu_head">Contact us</h3>
-                    <div class="footer_menu_contact">
-                        <ul>
-                            <li> <i class="fa fa-home"></i>
-                                <span> 12 Segun Bagicha, 10th Floor </span></li>
-                            <li><i class="fa fa-globe"></i>
-                                <span> <a href="tel:+380714074474">+380-71-407-44-74</a></span></li>
-                            <li><i class="fa fa-globe"></i>
-                                <span> <a href="tel:+380950888771">+380-95-088-87-71</a></span></li>
-                            <li><i class="fa fa-phone"></i>
-                                <span> valery.shumkov@mail.ru</span></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <h3 class="menu_head">Tags</h3>
-                    <div class="footer_menu tags">
-                        <a href="#"> Design</a>
-                        <a href="#"> User Interface</a>
-                        <a href="#"> Graphics</a>
-                        <a href="#"> Web Design</a>
-                        <a href="#"> Development</a>
-                        <a href="#"> Asp.net</a>
-                        <a href="#"> Bootstrap</a>
-                        <a href="#"> Joomla</a>
-                        <a href="#"> SEO</a>
-                        <a href="#"> Wordepress</a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="footer_b">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="footer_bottom">
-                        <p class="text-block"> &copy; Copyright reserved to <span>Valerij Shumkov</span></p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="footer_mid pull-right">
-                        <ul class="social-contact list-inline">
-                            <li> <a href="https://www.instagram.com/valerij_shumkov" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                            <li> <a href="https://github.com/Valerij2000" target="_blank"><i class="fa fa-github-square"></i></a></li>
-                            <li> <a href="https://vk.com/codermind" target="_blank"><i class="fa fa-vk"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
+<?php require 'footer.php' ?>
 <!-- Footer Area End -->
 
 

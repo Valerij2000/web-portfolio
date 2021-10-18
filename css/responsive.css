@@ -301,7 +301,7 @@
 	    margin-top: 95px;
 	}
 	#portfolio-slider li img {
-	    height: 250px !important;
+	    height: auto!important;
 	}
 	.bx-wrapper .bx-controls-direction a {
     	top: 42%;

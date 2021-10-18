@@ -789,7 +789,7 @@ padding: 8px 15px;
 .portfolio-slider{}
 #portfolio-slider li img{
     width: 100%!important;
-    height: 400px!important;
+    height: auto!important;
 }
 
 .sidebar{
@@ -855,6 +855,7 @@ padding: 8px 15px;
     left: 47%;
 }
 .related .rel-post{
+    cursor: pointer;
     margin-bottom: 30px;
     border: 1px solid#F5F5F5;
     width: 100%;
