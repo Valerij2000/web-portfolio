@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
     <head>
     <!-- Basic Page Needs
     ================================================== -->
@@ -875,34 +875,34 @@
         </div>
         <div class="row">
              <div class="contact_full">
-                <div class="col-md-6 left">
-                    <div class="left_contact">
-                        <form action="telegram.php" method="post">
+                <form action="telegram.php" method="post">
+                    <div class="col-md-6 left">
+                        <div class="left_contact">
                             <div class="form-level">
-                                <input name="name" placeholder="Name" id="name"  value="" type="text" class="input-block">
+                                <input name="name" placeholder="Name" id="name"  value="" type="text" class="input-block" required oninvalid="this.setCustomValidity('This field Name is required')" oninput="setCustomValidity('')">
                                 <span class="form-icon fa fa-user"></span>
                             </div>
                             <div class="form-level">
-                                <input name="email" placeholder="Email" id="mail" class="input-block" value="" type="email">
+                                <input name="email" placeholder="Email" id="mail" class="input-block" value="" type="email" required oninvalid="this.setCustomValidity('This field Email is required')" oninput="setCustomValidity('')">
                                 <span class="form-icon fa fa-envelope-o"></span>
                             </div>
                             <div class="form-level">
-                                <input name="name" placeholder="Phone" id="phone" class="input-block" value="" type="text">
+                                <input name="phone" placeholder="Phone" id="phone" class="input-block" value="" type="text" required oninvalid="this.setCustomValidity('This field Phone is required')" oninput="setCustomValidity('')">
                                 <span class="form-icon fa fa-phone"></span>
                             </div>
-                        </form>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-md-6 right">
-                    <div class="form-level">
-                        <textarea name="" id="messege"  rows="5" class="textarea-block" placeholder="message"></textarea>
-                        <span class="form-icon fa fa-pencil"></span>
+                    <div class="col-md-6 right">
+                        <div class="form-level">
+                            <textarea name="message" id="messege"  rows="5" class="textarea-block" placeholder="message" required oninvalid="this.setCustomValidity('This field Message is required')" oninput="setCustomValidity('')"></textarea>
+                            <span class="form-icon fa fa-pencil"></span>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-12 text-center">
-                    <button class="btn btn-main featured">Submit Now</button>
-                </div>
+                    <div class="col-md-12 text-center">
+                        <button class="btn btn-main featured" id="submit-button">Submit Now</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -911,7 +911,7 @@
 <div id="g-map" class="no-padding">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="map" id="map"></div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d305486.86270059505!2d49.91790034884139!3d53.26057962368274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416618e22bd879d3%3A0xba95cda9bb3a030b!2sSamara%2C%20Samara%20Oblast%2C%20Russia!5e0!3m2!1sen!2sua!4v1634548273583!5m2!1sen!2sua" width="100%" height="320px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 		</div>
 	</div>
 </div>
@@ -1047,32 +1047,7 @@
         <script src="js/jquery.singlePageNav.js"></script>
       	<!-- Wow Animation -->
         <script type="js/javascript" src="js/wow.min.js"></script>
-        <!-- Google Map  Source -->
-        <script type="text/javascript" src="js/gmaps.js"></script>
 			<!-- Custom js -->
         <script src="js/custom.js"></script>
-	<script>
-		// Google Map - with support of gmaps.js
-     var map;
-        map = new GMaps({
-          div: '#map',
-          lat: 23.709921,
-          lng: 90.407143,
-          scrollwheel: false,
-          panControl: false,
-          zoomControl: false,
-        });
-
-        map.addMarker({
-          lat: 23.709921,
-          lng: 90.407143,
-          title: 'Themeturn',
-          infoWindow: { 
-            content: '<p> ThemeTurn, Dhanmondhi 27</p>'
-          },
-          icon: "images/map1.png"
-        });
-      	</script>
- 
     </body>
 </html>

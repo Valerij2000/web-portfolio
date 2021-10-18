@@ -20,7 +20,6 @@
   8. Isotope
   9. Animation (wow)
   10. Flickr
-  
 */
 
 
@@ -304,8 +303,5 @@ Back To Top Button
       });
       
       $('#back-top').tooltip('hide');
-
-
-
 
 });
