@@ -97,7 +97,7 @@
                             <h4>Project Overview</h4>
                             <p>Avtoraketa is a company that provides services for the purchase and delivery of cars from the USA, Georgia and Korea to Ukraine. We provide a guarantee for all our services, payments are transparent, and the cost will pleasantly surprise you.
                             </p>
-                        <p><a href="https://avtoraketa.com.ua/www" target="_blank" class="btn btn-main featured">Project Link</a></p>
+                        <p><a href="https://avtoraketa.com.ua" target="_blank" class="btn btn-main featured">Project Link</a></p>
                     </div>
                 </div>
             </div>
