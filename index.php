@@ -735,7 +735,9 @@
                             <li> 150 Domains</li>
                             <li> 150 Email Account</li>
                             <li> HTML/CSS/JS</li>
-                            <li class="price_button"> <button class="btn btn-main">Sign UP Now!</button></li>
+                            <li class="price_button"> 
+                                <a href="#contact"><button class="btn btn-main">Sign UP Now!</button></a>
+                            </li>
                         </ul>
                     </div>
                 </div> <!-- Single col-md-4 End -->
@@ -752,7 +754,7 @@
                             <li> 150 Email Account</li>
                             <li> Automated Cloud Backup</li>
                             <li> PHP/MySQL</li>
-                            <li class="price_button"> <button class="btn btn-main featured">Sign UP Now!</button></li>
+                            <li class="price_button"> <a href="#contact"><button class="btn btn-main">Sign UP Now!</button></a></li>
                         </ul>
                     </div>
                 </div> <!-- Single col-md-4 End -->
@@ -769,7 +771,7 @@
                             <li> Vue.js/Nuxt.js</li>
                             <li> Ruby on Rails</li>
                             <li> Unique design</li>
-                            <li class="price_button"> <button class="btn btn-main">Sign UP Now!</button></li>
+                            <li class="price_button"> <a href="#contact"><button class="btn btn-main">Sign UP Now!</button></a></li>
                         </ul>
                     </div>
                 </div> <!-- Single col-md-4 End -->
