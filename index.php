@@ -852,7 +852,7 @@
   			<div class="col-md-12">
                 <div class="feature_header text-center">
                     <h3 class="feature_title">Keep In <b>touch</b></h3>
-                    <h4 class="feature_sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h4>
+                    <h4 class="feature_sub">Send us an email in the order form and we will definitely answer you. </h4>
                     <div class="divider"></div>
                 </div>
   			</div>
