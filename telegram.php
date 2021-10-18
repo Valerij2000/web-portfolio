@@ -1,11 +1,8 @@
 <?php
-// https://api.telegram.org/bot2085698645:AAE_iq7NNHhLfr1DLcvD1NtvdXgu1EhXpdY/getUpdates
-// где XXXXXXXXXXXXXX = наш токен полученный ранее
-
-$name=$_POST['name'];
-$email=$_POST['email'];
-$message=$_POST['message'];
-$phone = $_POST['phone'];
+$name=$_REQUEST['name'];
+$email=$_REQUEST['email'];
+$message=$_REQUEST['message'];
+$phone = $_REQUEST['phone'];
 $token = "2085698645:AAE_iq7NNHhLfr1DLcvD1NtvdXgu1EhXpdY";
 $chat_id = "-733352268";
 
