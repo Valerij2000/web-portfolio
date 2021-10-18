@@ -95,9 +95,6 @@
 		margin: 0 auto;
 		width: 50%;
 	}
-	.cyprass-carousel-controller {
-	    left: 41%;
-	}
 	.testimonial-slide .testimonial-text {
 	    font-size: 14px;
 	    padding-top: 20px;
@@ -272,9 +269,6 @@
 	}
 
 	/*Testimonial */
-	.cyprass-carousel-controller {
-	    left: 33%;
-	}
 	.testimonial-slide .testimonial-text {
 	    font-size: 14px;
 	    padding-top: 20px;

@@ -1591,13 +1591,6 @@ figcaption .links a {
     display: none;
 }
 
-.cyprass-carousel-controller {
-    cursor: pointer;
-    position: relative;
-    margin: 20px 0px;
-    left: 46%;
-}
-
 .customNavigation .fa-chevron-left, .customNavigation .fa-chevron-right {
     padding: 15px;
     width: 50px;

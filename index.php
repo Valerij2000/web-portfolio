@@ -458,7 +458,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <ul class="nav nav-tabs" role="tablist">
+                <ul class="" role="tablist">
                       <li role="presentation" class="active">
                       	<a href="#home" role="tab" data-toggle="tab" >
                       		<div class="col-sm-12 single-feature">
@@ -471,7 +471,7 @@
                                 </div>
                             </div>
                       	</a>
-                      	</li>
+                        </li>
                       <li role="presentation">
                       	<a href="#profile" role="tab" data-toggle="tab">
                             <div class="col-sm-12 single-feature">

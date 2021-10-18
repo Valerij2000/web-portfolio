@@ -967,8 +967,8 @@ padding: 8px 15px;
     margin-top: 55px;
 }
 .tab-content img{
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -1539,9 +1539,9 @@ padding: 8px 15px;
 }
 .cyprass-carousel-controller {
     cursor: pointer;
-    position: relative;
-    margin: 20px 0px;
-    left: 46%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .customNavigation .fa-chevron-left, .customNavigation .fa-chevron-right{ 
     padding: 15px; 
