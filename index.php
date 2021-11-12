@@ -276,6 +276,8 @@
         <a data-filter=".web-design" href="#"  class="">Ruby on Rails</a>
         <a data-filter=".graphic"  href="#" class="">PHP/MySQL</a>
         <a data-filter=".logo"  href="#" class="">HTML/CSS/JS</a>
+        <a data-filter=".chat"  href="#" class="">Chat-Bot</a>
+        <a data-filter=".email-dev"  href="#" class="">Email/dev</a>
     </div>
     <div class="clearfix"></div>
    			<div class="text-center ">
@@ -419,6 +421,42 @@
                                 </p>
                                 <p class="description">
                                     Ruby on reils job search project (RoR Ruby).
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+
+                    <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio chat">
+                        <figure>
+                            <img src="images/portfolio/culture.jpg" alt="" class="img-responsive" />
+                            <figcaption>
+                                <h5>Chat-Bot CPA Culture comp.</h5>
+                                <p class="links">
+                                    <a href="culture-cpa.php"> <i class="fa fa-link"></i></a>
+                                    <a href="images/portfolio/culture.jpg" data-rel="prettyPhoto">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </p>
+                                <p class="description">
+                                    Development of a chat bot in native JS.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+
+                    <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio email-dev">
+                        <figure>
+                            <img src="images/portfolio/email-dev.jpg" alt="" class="img-responsive" />
+                            <figcaption>
+                                <h5>Email Development WIM comp.</h5>
+                                <p class="links">
+                                    <a href="email-dev.php"> <i class="fa fa-link"></i></a>
+                                    <a href="images/portfolio/email-dev.jpg" data-rel="prettyPhoto">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </p>
+                                <p class="description">
+                                    Dev of mail letters for mass mailing. Clients Yandex Market, Letual, Perekrestok, CSC.
                                 </p>
                             </figcaption>
                         </figure>

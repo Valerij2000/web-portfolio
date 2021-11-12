@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -7,7 +7,7 @@
     <!-- Basic Page Needs
     ================================================== -->
         <meta charset="utf-8">
-        <title>Cypras-One page html5 template</title>
+        <title>Chat Bot Template template</title>
         <meta name="description" content="">
         <!-- Mobile Specific Metas
     ================================================== -->
@@ -57,7 +57,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="portfolio-header text-center">
-                        <h2>Portfolio Details</h2>
+                        <h2>CPA Culture</h2>
                         <ul class="breadcrumb">
                             <li>home</li>
                             <li>portfolio</li>
@@ -76,9 +76,9 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="portfolio-slider-wrapper">
                         <ul id="portfolio-slider">
-                            <li><img src="images/slider/s3.jpg" alt="" class="img-responsive"/></li>
-                            <li><img src="images/slider/s2.jpg" alt="" class="img-responsive"/></li>
-                            <li><img src="images/slider/s1.jpg" alt="" class="img-responsive"/></li>
+                            <li><img src="images/slider/culture1.jpg" alt="" class="img-responsive"/></li>
+                            <li><img src="images/slider/culture2.jpg" alt="" class="img-responsive"/></li>
+                            <li><img src="images/slider/culture3.jpg" alt="" class="img-responsive"/></li>
                         </ul>
                     </div>
                 </div>
@@ -96,9 +96,9 @@
                     <div class="sidebar">
                         <div class="portfolio-desc">
                             <h4>Project Overview</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, quasi nisi optio, earum facilis perspiciatis temporibus nobis nam velit incidunt. Recusandae accusamus pariatur, explicabo iure ea ex perspiciatis perferendis quam! Oat cake oat cake dessert brownie. Gummies tiramisu tart jujubes jelly beans macaroon danish pie muffin. Soufflé pudding brownie pudding fruitcake marshmallow I love. Dragée jujubes chocolate cake jelly beans.
+                            <p>Development of a chat bot client for a foreign market. The development was carried out in native Java Script using several request processing libraries.
                             </p>
-                        <p><a href="#" class="btn btn-main featured">Project Link</a></p>
+                        <p><a href="https://odooone.com/pvC1tD?sub2=TEST&fb_pixel=32" target="_blank" class="btn btn-main featured">Project Link</a></p>
                     </div>
                 </div>
             </div>
@@ -106,9 +106,9 @@
                 <div class="right-sidebar">
                     <h4>Project Details</h4>
                     <ul class="circle">
-                        <li><span>date : </span> 15 May 2014</li>
-                        <li><span>client : </span>Enavto</li>
-                        <li><span>Category :</span> Web design</li>
+                        <li><span>date : </span> 5 November 2021</li>
+                        <li><span>client : </span>Andrey</li>
+                        <li><span>Category :</span> Web development</li>
                         <li><span>Stack :</span> Native Java Script</li>
                     </ul>
                 </div>
