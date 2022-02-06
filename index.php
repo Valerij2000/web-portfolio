@@ -372,6 +372,24 @@
                         </figure>
                     </li>
 
+                    <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio logo web-design">
+                        <figure>
+                            <img src="images/portfolio/lazer.jpg" alt="" class="img-responsive" />
+                            <figcaption>
+                                <h5>Lazer Beauty</h5>
+                                <p class="links">
+                                    <a href="lazer.php"> <i class="fa fa-link"></i></a>
+                                    <a href="images/portfolio/lazer.jpg" data-rel="prettyPhoto">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </p>
+                                <p class="description">
+                                    Ukraine project laser medical Service.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+
                     <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio logo graphic">
                         <figure>
                             <img src="images/portfolio/lumos.jpg" alt="" class="img-responsive" />
