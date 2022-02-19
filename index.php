@@ -278,6 +278,7 @@
         <a data-filter=".logo"  href="#" class="">HTML/CSS/JS</a>
         <a data-filter=".chat"  href="#" class="">Chat-Bot</a>
         <a data-filter=".email-dev"  href="#" class="">Email/dev</a>
+        <a data-filter=".app"  href="#" class="">Application</a>
     </div>
     <div class="clearfix"></div>
    			<div class="text-center ">
@@ -294,7 +295,7 @@
                                     </a>
                                 </p>
                                 <p class="description">
-                                    Autoketa is a profitable car purchase from American auctions and Georgian car markets.
+                                    Avtoraketa is a profitable car purchase from American auctions and Georgian car markets.
                                 </p>
                             </figcaption>
                         </figure>
@@ -390,6 +391,24 @@
                         </figure>
                     </li>
 
+                    <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio logo">
+                        <figure>
+                            <img src="images/portfolio/kadoni.jpg" alt="" class="img-responsive" />
+                            <figcaption>
+                                <h5>Vlad Kadoni Project</h5>
+                                <p class="links">
+                                    <a href="kadoni.php"> <i class="fa fa-link"></i></a>
+                                    <a href="images/portfolio/kadoni.jpg" data-rel="prettyPhoto">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </p>
+                                <p class="description">
+                                    Russian project for Vlad Kadoni in Digital Agancy Siart Company
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+
                     <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio logo graphic">
                         <figure>
                             <img src="images/portfolio/lumos.jpg" alt="" class="img-responsive" />
@@ -403,6 +422,60 @@
                                 </p>
                                 <p class="description">
                                     Mystical landing page.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+
+                    <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio logo graphic">
+                        <figure>
+                            <img src="images/portfolio/iqos.jpg" alt="" class="img-responsive" />
+                            <figcaption>
+                                <h5>IQOS Project</h5>
+                                <p class="links">
+                                    <a href="iqos.php"> <i class="fa fa-link"></i></a>
+                                    <a href="images/portfolio/iqos.jpg" data-rel="prettyPhoto">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </p>
+                                <p class="description">
+                                    IQOS landing
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+
+                    <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio logo">
+                        <figure>
+                            <img src="images/portfolio/alfa.jpg" alt="" class="img-responsive" />
+                            <figcaption>
+                                <h5>IQOS Project</h5>
+                                <p class="links">
+                                    <a href="alfa.php"> <i class="fa fa-link"></i></a>
+                                    <a href="images/portfolio/alfa.jpg" data-rel="prettyPhoto">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </p>
+                                <p class="description">
+                                    Alfa Strahovanie Project Landing
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+
+                    <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio logo graphic">
+                        <figure>
+                            <img src="images/portfolio/kapitalan.jpg" alt="" class="img-responsive" />
+                            <figcaption>
+                                <h5>Kapitalan Company</h5>
+                                <p class="links">
+                                    <a href="kapitalan.php"> <i class="fa fa-link"></i></a>
+                                    <a href="images/portfolio/kapitalan.jpg" data-rel="prettyPhoto">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </p>
+                                <p class="description">
+                                    Kapitalan it's Russian projects on buying estate ownerships.
                                 </p>
                             </figcaption>
                         </figure>
@@ -470,6 +543,24 @@
                                 <p class="links">
                                     <a href="email-dev.php"> <i class="fa fa-link"></i></a>
                                     <a href="images/portfolio/email-dev.jpg" data-rel="prettyPhoto">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </p>
+                                <p class="description">
+                                    Dev of mail letters for mass mailing. Clients Yandex Market, Letual, Perekrestok, CSC.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+
+                    <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio app">
+                        <figure>
+                            <img src="images/portfolio/app.jpg" alt="" class="img-responsive" />
+                            <figcaption>
+                                <h5>Email Development WIM comp.</h5>
+                                <p class="links">
+                                    <a href="app.php"> <i class="fa fa-link"></i></a>
+                                    <a href="images/portfolio/app.jpg" data-rel="prettyPhoto">
                                         <i class="fa fa-plus"></i>
                                     </a>
                                 </p>
