@@ -25,7 +25,11 @@
         <link rel="stylesheet" href="css/animate.css" />
         <!-- Owl Carousel -->
         <link rel="stylesheet" href="css/owl.carousel.css"/>
-         <link rel="stylesheet" href="css/owl.theme.css"/>
+        <link rel="stylesheet" href="css/owl.theme.css"/>
+        <!-- Preloader -->
+        <link rel="stylesheet" href="css/preloader.css">
+        <!-- Live Writing Text -->
+        <link rel="stylesheet" href="css/live.writing.css">
          <!-- Pretty Photo -->
          <link rel="stylesheet" href="css/prettyPhoto.css"/>
          <link rel="stylesheet" href="css/flexslider.css"/>
@@ -42,6 +46,14 @@
     </head>
 
  <body data-spy="scroll" data-target=".navbar-fixed-top">
+        <!-- Preloader -->
+        <div class="preloader">
+            <div class="wrapper-writting_text">
+                    <div class="typing-demo">
+                        Valerij Shumkov Web-Developer
+                    </div>
+            </div>
+        </div>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -1095,7 +1107,9 @@
         <script src="js/jquery.singlePageNav.js"></script>
       	<!-- Wow Animation -->
         <script type="js/javascript" src="js/wow.min.js"></script>
-			<!-- Custom js -->
+        <!-- Preloader -->
+        <script src="js/preloader.js"></script>
+        <!-- Custom js -->
         <script src="js/custom.js"></script>
     </body>
 </html>
