@@ -461,7 +461,7 @@
                         <figure>
                             <img src="images/portfolio/alfa.jpg" alt="" class="img-responsive" />
                             <figcaption>
-                                <h5>IQOS Project</h5>
+                                <h5>Alfa Strahovanie</h5>
                                 <p class="links">
                                     <a href="alfa.php"> <i class="fa fa-link"></i></a>
                                     <a href="images/portfolio/alfa.jpg" data-rel="prettyPhoto">
