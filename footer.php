@@ -32,9 +32,7 @@
                             <li> <i class="fa fa-home"></i>
                                 <span> 12 Segun Bagicha, 10th Floor </span></li>
                             <li><i class="fa fa-globe"></i>
-                                <span> <a href="tel:+380714074474">+380-71-407-44-74</a></span></li>
-                            <li><i class="fa fa-globe"></i>
-                                <span> <a href="tel:+380950888771">+380-95-088-87-71</a></span></li>
+                                <span> <a href="tel:+79613051320">+7(961)-305-13-20</a></span></li>
                             <li><i class="fa fa-phone"></i>
                                 <span> valery.shumkov@mail.ru</span></li>
                         </ul>

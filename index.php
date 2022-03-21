@@ -38,9 +38,7 @@
         <!-- Template styles-->
         <link rel="stylesheet" href="css/custom.css" />
         <link rel="stylesheet" href="css/responsive.css" />
-        <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-	
-		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+        <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />		
         <link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500' rel='stylesheet' type='text/css'>
     </head>
@@ -290,11 +288,49 @@
         <a data-filter=".logo"  href="#" class="">HTML/CSS/JS</a>
         <a data-filter=".chat"  href="#" class="">Chat-Bot</a>
         <a data-filter=".email-dev"  href="#" class="">Email/dev</a>
+        <a data-filter=".game-dev"  href="#" class="">HTML5 Game/dev</a>
         <a data-filter=".app"  href="#" class="">Application</a>
     </div>
     <div class="clearfix"></div>
    			<div class="text-center ">
-              <ul class="portfolio-wrap" id="portfolio_items">
+              <ul class="portfolio-wrap" id="portfolio_items">                 
+
+                    <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio game-dev">
+                        <figure>
+                            <img src="images/portfolio/marafon.jpg" alt="" class="img-responsive"/>
+                            <figcaption>
+                                <h5>Marafon</h5>
+                                <p class="links">
+                                    <a href="marafon.php"> <i class="fa fa-link"></i></a>
+                                    <a href="images/portfolio/marafon.jpg" data-rel="prettyPhoto" >
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </p>
+                                <p class="description">
+                                    Old school or innovation - modern Slott and Kraab systems in construction and decoration.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+
+                    <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio logo">
+                        <figure>
+                            <img src="images/portfolio/yandex.jpg" alt="" class="img-responsive"/>
+                            <figcaption>
+                                <h5>Yandex Birthday</h5>
+                                <p class="links">
+                                    <a href="yandex.php"> <i class="fa fa-link"></i></a>
+                                    <a href="images/portfolio/yandex.jpg" data-rel="prettyPhoto" >
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </p>
+                                <p class="description">
+                                    Yandex Market.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+
                     <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio identity web-design">
                         <figure>
                             <img src="images/portfolio/avtoraketa.jpg" alt="" class="img-responsive"/>
@@ -331,6 +367,24 @@
                         </figure>
                     </li>
 
+                    <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio logo graphic">
+                        <figure>
+                        <img src="images/portfolio/hrrost.jpg" alt="" class="img-responsive" />
+                            <figcaption>
+                                <h5>HR Rost</h5>
+                                <p class="links">
+                                    <a href="hrrost.php"> <i class="fa fa-link"></i></a>
+                                    <a href="images/portfolio/hrrost.jpg"  data-rel="prettyPhoto">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </p>
+                                <p class="description">
+                                The best HR technologies that allow you to really save on the costs of the recruitment department. Choose proven solutions.
+                                </p>
+                                </figcaption>
+                        </figure>
+                    </li>
+
                     <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio graphic logo">
                         <figure>
                             <img src="images/portfolio/kovryshop.jpg" alt="" class="img-responsive"/>
@@ -344,6 +398,24 @@
                                 </p>
                                 <p class="description">
                                     Online store of carpets and rugs.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+
+                    <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio logo">
+                        <figure>
+                            <img src="images/portfolio/kadoni.jpg" alt="" class="img-responsive" />
+                            <figcaption>
+                                <h5>Vlad Kadoni Project</h5>
+                                <p class="links">
+                                    <a href="kadoni.php"> <i class="fa fa-link"></i></a>
+                                    <a href="images/portfolio/kadoni.jpg" data-rel="prettyPhoto">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </p>
+                                <p class="description">
+                                    Russian project for Vlad Kadoni in Digital Agancy Siart Company
                                 </p>
                             </figcaption>
                         </figure>
@@ -403,24 +475,6 @@
                         </figure>
                     </li>
 
-                    <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio logo">
-                        <figure>
-                            <img src="images/portfolio/kadoni.jpg" alt="" class="img-responsive" />
-                            <figcaption>
-                                <h5>Vlad Kadoni Project</h5>
-                                <p class="links">
-                                    <a href="kadoni.php"> <i class="fa fa-link"></i></a>
-                                    <a href="images/portfolio/kadoni.jpg" data-rel="prettyPhoto">
-                                        <i class="fa fa-plus"></i>
-                                    </a>
-                                </p>
-                                <p class="description">
-                                    Russian project for Vlad Kadoni in Digital Agancy Siart Company
-                                </p>
-                            </figcaption>
-                        </figure>
-                    </li>
-
                     <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio logo graphic">
                         <figure>
                             <img src="images/portfolio/lumos.jpg" alt="" class="img-responsive" />
@@ -475,6 +529,24 @@
                         </figure>
                     </li>
 
+                    <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio logo">
+                        <figure>
+                            <img src="images/portfolio/autovaronka.jpg" alt="" class="img-responsive" />
+                            <figcaption>
+                                <h5>Autovaronka</h5>
+                                <p class="links">
+                                    <a href="autovaronka.php"> <i class="fa fa-link"></i></a>
+                                    <a href="images/portfolio/autovaronka.jpg" data-rel="prettyPhoto">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </p>
+                                <p class="description">
+                                    Project Avtoraketa Company.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+
                     <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio logo graphic">
                         <figure>
                             <img src="images/portfolio/kapitalan.jpg" alt="" class="img-responsive" />
@@ -493,6 +565,24 @@
                         </figure>
                     </li>
 
+                    <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio logo">
+                        <figure>
+                            <img src="images/portfolio/design.jpg" alt="" class="img-responsive" />
+                            <figcaption>
+                                <h5>Design</h5>
+                                <p class="links">
+                                    <a href="design.php"> <i class="fa fa-link"></i></a>
+                                    <a href="images/portfolio/design.jpg" data-rel="prettyPhoto">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </p>
+                                <p class="description">
+                                    Course for beginners who want to start earning on freelance. 
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+
                     <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio graphic identity">
                         <figure>
                             <img src="images/portfolio/rabota.jpg" alt="" class="img-responsive" />
@@ -506,6 +596,24 @@
                                 </p>
                                 <p class="description">
                                     Project Job search project on PHP/Laravel/Vue.js.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+
+                    <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio game-dev">
+                        <figure>
+                            <img src="images/portfolio/phaserJump.jpg" alt="" class="img-responsive"/>
+                            <figcaption>
+                                <h5>Game Jumper Bomb</h5>
+                                <p class="links">
+                                    <a href="phaserJumper.php"> <i class="fa fa-link"></i></a>
+                                    <a href="images/portfolio/phaserJump.jpg" data-rel="prettyPhoto" >
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </p>
+                                <p class="description">
+                                    Phaser3 frameworks create game HTML5 multiplayed. Hide on bomb booh.
                                 </p>
                             </figcaption>
                         </figure>
@@ -547,6 +655,24 @@
                         </figure>
                     </li>
 
+                    <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio app">
+                        <figure>
+                            <img src="images/portfolio/radisson.jpg" alt="" class="img-responsive" />
+                            <figcaption>
+                                <h5>Radisson Souna</h5>
+                                <p class="links">
+                                    <a href="radisson.php"> <i class="fa fa-link"></i></a>
+                                    <a href="images/portfolio/radisson.jpg" data-rel="prettyPhoto">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </p>
+                                <p class="description">
+                                    Commercial Souna.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+
                     <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio email-dev">
                         <figure>
                             <img src="images/portfolio/email-dev.jpg" alt="" class="img-responsive" />
@@ -567,9 +693,27 @@
 
                     <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio app">
                         <figure>
+                            <img src="images/portfolio/hromatograf.jpg" alt="" class="img-responsive" />
+                            <figcaption>
+                                <h5>Hromatograf.</h5>
+                                <p class="links">
+                                    <a href="hromatograf.php"> <i class="fa fa-link"></i></a>
+                                    <a href="images/portfolio/hromatograf.jpg" data-rel="prettyPhoto">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </p>
+                                <p class="description">
+                                    Web Craft Group Project.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </li>
+
+                    <li class="col-md-3 col-xs-12 col-sm-6 single-portfolio app">
+                        <figure>
                             <img src="images/portfolio/app.jpg" alt="" class="img-responsive" />
                             <figcaption>
-                                <h5>Email Development WIM comp.</h5>
+                                <h5>Random English Cards</h5>
                                 <p class="links">
                                     <a href="app.php"> <i class="fa fa-link"></i></a>
                                     <a href="images/portfolio/app.jpg" data-rel="prettyPhoto">
@@ -577,7 +721,7 @@
                                     </a>
                                 </p>
                                 <p class="description">
-                                    Dev of mail letters for mass mailing. Clients Yandex Market, Letual, Perekrestok, CSC.
+                                    Application for learning english.
                                 </p>
                             </figcaption>
                         </figure>
