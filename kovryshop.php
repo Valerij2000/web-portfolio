@@ -99,7 +99,7 @@
                             <h4>Project Overview</h4>
                             <p>Buy Carpets in the online store from a warehouse of carpets in Donetsk at the lowest price!.
                             </p>
-                        <p><a href="http://kovryshop.rf.gd" target="_blank" class="btn btn-main featured">Project Link</a></p>
+                        <p><a href="https://www.kovry-makeevka.ru" target="_blank" class="btn btn-main featured">Project Link</a></p>
                     </div>
                 </div>
             </div>
