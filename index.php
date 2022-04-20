@@ -1086,7 +1086,7 @@
 
 <!-- Testimonial Start -->
 
-<section id="testimonial" class="wow fadeInUp">
+<!-- <section id="testimonial" class="wow fadeInUp">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -1095,7 +1095,7 @@
                     <h4 class="feature_sub">Our customers' feedback is very important to us. </h4>
                     <div class="divider"></div>
                 </div>
-            </div>  <!-- Col-md-12 End -->
+            </div>  
         </div>
                 <div class="row">
                     <div id="testimonial-carousel" class="owl-carousel owl-theme text-center testimonial-slide">
@@ -1133,7 +1133,7 @@
                           </div>
                         </div>
                     </div>
-                  	<!-- Navigation start -->
+                
                   	<div class="customNavigation cyprass-carousel-controller">
                         <a class="prev left">
                         	<i class="fa fa-chevron-left"></i>
@@ -1142,10 +1142,12 @@
                           <i class="fa fa-chevron-right"></i>
                         </a>
                 	</div>
-                	<!-- Navigation ENd -->
+                
                 </div>
-            </div> <!-- Row End -->
-</section> <!-- Section Testimonial End -->
+            </div> 
+</section>  -->
+
+<!-- Section Testimonial End -->
 
 <!-- Testimonial Area End -->
 
