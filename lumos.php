@@ -98,7 +98,7 @@
                             <h4>Project Overview</h4>
                             <p>Mystical projects from Moscow Lumos Company.
                             </p>
-                        <p><a href="https://github.com/Valerij2000/lumos-company-deploy/tree/main" target="_blank" class="btn btn-main featured">Project Link</a></p>
+                        <p><a href="https://valerij2000.github.io/lumos-company-deploy/index.html" target="_blank" class="btn btn-main featured">Project Link</a></p>
                     </div>
                 </div>
             </div>
