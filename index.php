@@ -985,12 +985,13 @@
                     <div class="divider"></div>
                 </div>
             </div>  <!-- Col-md-12 End -->
-
             <div  class="team-items">
                 <div class="item text-center">
                     <div class="">
                         <div class="overlay-hover">
-                            <img src="images/team/myfoto.jpg" alt="" class="img-responsive">
+                            <div class="img-block">
+                                <img src="images/team/myfoto.jpg" alt="My Photo in Office" class="img-responsive">
+                            </div>
                             <div class="overlay-effect">
                                 <ul class="social list-inline">
                                     <li><a href="https://vk.com/codermind" target="_blank"><i class="fa fa-vk"></i></a></li>
@@ -1056,19 +1057,9 @@
         </div>
     </div>
 </section>
-
-<div id="g-map" class="no-padding">
-	<div class="container-fluid">
-		<div class="row">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d305486.86270059505!2d49.91790034884139!3d53.26057962368274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416618e22bd879d3%3A0xba95cda9bb3a030b!2sSamara%2C%20Samara%20Oblast%2C%20Russia!5e0!3m2!1sen!2sua!4v1634548273583!5m2!1sen!2sua" width="100%" height="320px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-		</div>
-	</div>
-</div>
 <!-- Footer Area Start -->
 <?php require 'footer.php' ?>
 <!-- Footer Area End -->
-
-
 
 <!-- Back To Top Button -->
 <!-- <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">

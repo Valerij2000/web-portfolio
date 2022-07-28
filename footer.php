@@ -14,23 +14,9 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <h3 class="menu_head">Useful Links</h3>
-                    <div class="footer_menu">
-                        <ul>
-                            <li><a>Terms of use</a></li>
-                            <li><a>Privacy Policy</a></li>
-                            <li><a> inventore natus ullam eum</a></li>
-                            <li><a>consectetur adipisicing elit.</a></li>
-                            <li><a>Frequently Asked Questions</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
                     <h3 class="menu_head">Contact us</h3>
                     <div class="footer_menu_contact">
                         <ul>
-                            <li> <i class="fa fa-home"></i>
-                                <span> 12 Segun Bagicha, 10th Floor </span></li>
                             <li><i class="fa fa-globe"></i>
                                 <span> <a href="tel:+79613051320">+7(961)-305-13-20</a></span></li>
                             <li><i class="fa fa-phone"></i>
